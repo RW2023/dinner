@@ -63,15 +63,15 @@ const Navbar = () => {
           >
             <div className="flex items-center">
               {/* Logo Image */}
-              {/* <Image
-                src="/img/logo.png" // Specify the path to your logo image
+              <Image
+                src="/logo.png" // Specify the path to your logo image
                 alt="Logo"
                 width={50}
                 height={50}
                 className="icon m-1 rounded-full"
-              /> */}
+              />
               {/* SubHeading */}
-              <SubHeading title="Chore Tracker" iconClass="fas fa-tasks" />
+              <SubHeading title="Eats" iconClass="fas fa-utensils" />{' '}
             </div>
           </span>
         </Link>
