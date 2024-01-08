@@ -66,8 +66,8 @@ const Navbar = () => {
               <Image
                 src="/logo.png" // Specify the path to your logo image
                 alt="Logo"
-                width={50}
-                height={50}
+                width={70}
+                height={70}
                 className="icon m-1 rounded-full"
               />
               {/* SubHeading */}
