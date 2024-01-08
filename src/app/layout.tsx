@@ -11,20 +11,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" data-theme='business'>
+    <html lang="en" data-theme="night">
       <head>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         />
         <meta
-        name='description'
-        content='Eats Meal Planner is a meal planning app that allows you to plan your meals for the week.'
+          name="description"
+          content="Eats Meal Planner is a meal planning app that allows you to plan your meals for the week."
         />
         <title>Eats Meal Planner</title>
       </head>
       <body>
-          <Navbar />
+        <Navbar />
         {children}
       </body>
       <Footer />
