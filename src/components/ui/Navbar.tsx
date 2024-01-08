@@ -49,7 +49,7 @@ const Navbar = () => {
 
   return (
     <motion.nav
-      className="flex items-center justify-between flex-wrap p-3 navbar mt-0 sticky top-0 z-20 bg-base-200 shadow-2xl bg-opacity-90"
+      className="flex items-center justify-between flex-wrap p-3 navbar mt-0 sticky top-0 z-20 bg-base-200 shadow-2xl bg-opacity-90" data-theme="black"
       style={{ fontFamily: "'Poppins', sans-serif" }}
       initial="hidden"
       animate="show"
